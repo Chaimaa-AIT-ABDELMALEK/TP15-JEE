@@ -14,7 +14,7 @@ services:
 
   app-service:
     image: ens/springdocker:1.0
-    container_name: spring-boot-container
+    container_name: spring-app
     depends_on:
       - db-service
     ports:
